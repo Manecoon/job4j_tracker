@@ -8,6 +8,7 @@ public class Jukebox {
             default -> System.out.println("Песня не найдена");
         }
     }
+
     public static void main(String[] args) {
         Jukebox song = new Jukebox();
         song.music(1);
