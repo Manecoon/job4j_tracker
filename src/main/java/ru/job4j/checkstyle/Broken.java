@@ -9,15 +9,15 @@ public class Broken {
     public Broken() {
     }
 
-    void media(Object obj) {
+   public void media(Object obj) {
         if (obj != null) {
             System.out.println(obj);
         }
     }
 
-    void echo() {
+    public echo() {
     }
 
-    void method(int a, int b, int c, int d, int e, int f, int g) {
+    public method(int a, int b, int c, int d, int e, int f, int g) {
     }
 }
