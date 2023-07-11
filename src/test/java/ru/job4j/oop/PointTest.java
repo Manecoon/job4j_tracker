@@ -13,7 +13,7 @@ public class PointTest {
         Point b = new Point(2, 0);
         double dist = a.distance(b);
         double expected = 2;
-        assertThat(dist).isCloseTo(expected, offset(0.5));
+        assertThat(dist).isCloseTo(expected, offset(0.01));
     }
 
     @Test
@@ -21,8 +21,8 @@ public class PointTest {
         Point a = new Point(0, 3);
         Point b = new Point(2, 0);
         double dist = a.distance(b);
-        double expected = 3.5;
-        assertThat(dist).isCloseTo(expected, offset(0.5));
+        double expected = 3.6;
+        assertThat(dist).isCloseTo(expected, offset(0.01));
     }
 
     @Test
@@ -30,7 +30,7 @@ public class PointTest {
         Point a = new Point(4, 1);
         Point b = new Point(2, 0);
         double dist = a.distance(b);
-        double expected = 2;
-        assertThat(dist).isCloseTo(expected, offset(0.5));
+        double expected = 2.23;
+        assertThat(dist).isCloseTo(expected, offset(0.01));
     }
 }
