@@ -4,14 +4,14 @@ public class Item {
     private int id;
     private String name;
 
-    Construct() {
+    Item() {
     }
 
-    Construct(String a) {
+    Item(String a) {
         name = a;
     }
 
-    Construct(int b, String c) {
+    Item(int b, String c) {
         id = b;
         String name = c;
     }
