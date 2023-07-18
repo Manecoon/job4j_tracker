@@ -7,13 +7,13 @@ public class Item {
     Item() {
     }
 
-    Item(String a) {
-        name = a;
+    Item(String name) {
+        this.name = name;
     }
 
-    Item(int b, String c) {
-        id = b;
-        String name = c;
+    Item(int id, String name) {
+        this.id = id;
+        this.name = name;
     }
 
     public int getId() {
