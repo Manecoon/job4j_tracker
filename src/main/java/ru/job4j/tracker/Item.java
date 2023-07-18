@@ -4,6 +4,18 @@ public class Item {
     private int id;
     private String name;
 
+    Construct() {
+    }
+
+    Construct(String a) {
+        name = a;
+    }
+
+    Construct(int b, String c) {
+        id = b;
+        String name = c;
+    }
+
     public int getId() {
         return id;
     }
