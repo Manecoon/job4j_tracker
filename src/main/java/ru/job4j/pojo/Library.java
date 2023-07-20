@@ -26,7 +26,7 @@ public class Library {
         }
         for (int i = 0; i < polka.length; i++) {
             Book books = polka[i];
-            if (books.getName().equals("Clean code")) {
+            if ("Clean code".equals(books.getName())) {
                 System.out.println(books.getName());
             }
         }
